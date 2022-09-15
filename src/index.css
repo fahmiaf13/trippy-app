@@ -1,13 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat-light";
+  src: url("./assets/fonts/Montserrat-Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("./assets/fonts/Montserrat-ExtraBold.otf");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat-Light";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.f-light {
+  font-family: "Montserrat-light";
+}
+
+.f-bold {
+  font-family: "Montserrat-bold";
 }

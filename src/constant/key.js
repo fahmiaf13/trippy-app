@@ -1,0 +1,1 @@
+export const REACT_APP_API_KEY = "AIzaSyAL5M7LyJMRAFhJ_2518Mr5cXqasuLAa94";
